@@ -1,0 +1,99 @@
+body {
+    position: relative;
+    background-image: url(../images/white-background-gradient-abstract-design-modern_343694-3049.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-container {
+    background-color: #ccc;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 35px;
+}
+
+header {
+    top: 0;
+    text-align: center;
+    font-size: 40px;
+}
+
+.welcome-message {
+    padding-left: 100px;
+    font-size: 23px;
+
+    padding-bottom: 50px;
+}
+
+.login-container-1,
+.login-container-2 {
+    border: solid 1px;
+    width: fit-content;
+    text-align: center;
+
+    padding-top: 30px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    padding-right: 60px;
+
+    margin-left: 200px;
+    margin-right: 500px;
+    border-radius: 5px;
+    /*backdrop-filter: blur(1000px);*/
+}
+
+.login-header {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.username-label,
+.password-label {
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+    padding-left: 40px;
+}
+
+.username-input-box,
+.password-input-box {
+    margin-top: 10px;
+    border-top: none;
+    border-left: none;
+    padding: 10px;
+    font-size: 12px;
+    outline: none;
+}
+
+.display-invalid-username {
+    color: red;
+}
+
+.login-button,
+.save-button {
+    color: black;
+
+    font-size: 12px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    margin-top: 20px;
+    margin-left: 80px;
+    cursor: pointer;
+
+}
+
+.reset-link,
+.back-to-login-link {
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
+    margin-left: 60px;
+    text-decoration: none;
+}

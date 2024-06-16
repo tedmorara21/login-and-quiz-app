@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: 100%;
+    position: relative;
+}
+
+.company-logo {
+    width: 70px;
+    height: 70px;
+    padding-left: 5px;
+}
+
+.title-header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: gray;
+    z-index: 1000;
+}
+
+.home-container {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.home-text {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.welcome-message-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 200px;
+    padding-right: 10px;
+}
+
+.welcome-message {
+    font-size: 20px;
+}
+
+.warning-message {
+    font-size: 10px;
+    font-weight: 900;
+    color: rgba(10, 10, 10, 0.621);
+}
+
+.display-area {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.question-display-area {
+    position: relative;
+    flex: 3;
+    border: solid 1px #ccc;
+    padding: 0 20px;
+}
+
+.result-title {
+    padding: 10px;
+    margin-left: 40px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.marks-display-area {
+    columns: 3;
+    text-align: center;
+    
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.reset-button-area {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.reset-button{
+    padding: 5px 10px;
+
+    cursor: pointer;
+}
+
+.reset-button:hover{
+    background-color: red;
+    color: black;
+
+    font-size: 15px;
+
+    border-radius: 5px;
+    border: none;
+}
+
+.display-reset-message{
+    color: red;
+    margin-top: 20px;
+}
+
+.question-box {
+    margin-bottom: 25px;
+}
+
+.question-number {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.question-flexbox{
+    display: flex;
+    align-items: center;
+}
+
+.question {
+    flex: 2;
+    font-size: 15px;
+}
+
+.answer-input {
+    flex:0.6;
+    font-size: 15px;
+
+    border: solid 1px #ccc;
+    border-top: none;
+    border-left: none;
+
+    cursor: pointer;
+    outline: none;
+}
+
+.submit-button{
+    flex: 0.4;
+    padding: 5px 10px;
+    margin-left: 10px;
+
+    cursor: pointer;
+}
+
+.submit-button:hover{
+    background-color: #218838;
+    color: white;
+
+    border-radius: 5px;
+    border: none;
+}
+
+.finish-container{
+    text-align: center;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 23px;
+}
+
+.finish-span {
+    font-size: 30px;
+}
+
+.finish-button {
+    font-size: 19px;
+
+    margin-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 10px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.instagram-logo,
+.twitter-logo
+{
+    width: 20px;
+    margin-left: 10px;
+    height: 20px;
+}
+
